@@ -1,2 +1,402 @@
-# P1_porfoliotrabajos
-Porfolio trabajos Clase RIA
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabajos Ria MartaSala</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style type= "text/css">
+        /*reset*/ 
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        img{
+            width: 100%;
+            height:auto;
+        }
+        
+        
+        
+    
+        header{
+            padding: 0 3em;
+            font-family: 'Bebas Neue','Copperplate' ;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            background: #7E87F6;
+            background-size: cover;
+            background-position: -2em;
+            height: 100vh;
+            
+            
+                
+        }
+        nav{    
+            position: sticky;
+            top: 0;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            padding: 0 33px;
+            height: 74px;
+            font-family: 'Cormorant';
+            font-weight: normal;
+            text-transform: uppercase;
+            background:#5031A9;
+            font-size:23px ;
+            line-height: 0.9em;
+            font-weight: 700;
+        
+            
+        }
+        nav a{
+            text-decoration: none;
+            color:#FFFFFF;
+            
+        }
+        
+        main{ 
+            display: flex;
+            flex-direction: column;
+            padding: 20px 21px 0 21px;
+            background:#A26FDE;
+            width: 372;
+            height: 500;
+        
+        }
+        main a{
+            text-decoration: none;
+            color:#FFFFFF;}
+        
+        section{
+        
+            width: 100%;
+            margin: 0 0 33px 0;
+            display: flex;
+            flex-direction: column;
+            height: 371px;
+            background: white;
+        }
+        section figure {
+             
+           padding: 0.8em 0.8em 0 0.8em;
+            
+        }
+        
+        section figure img {
+            width: 100%;
+            height: 280px;
+            object-position: bottom;
+            object-fit: cover;
+        }
+        section figcaption{
+            display: flex;
+            flex-grow: 1;
+            justify-content: center;
+            align-items: center;
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding-bottom: 6em;
+            height: 257px;
+            width: 100%;
+            font-size:32; 
+            font-family: 'Cormorant', normal; 
+            background:#7E87F6;
+            
+        }
+        
+        footer a{
+          text-decoration: none;  
+          color:#FFFFFF;
+            
+        }
+        
+        }      
+      .xxss{
+            display: flex;
+            justify-content:space-around;
+        
+        }
+        .email{
+            text-align: center;
+        }
+    
+  
+        h1{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-size:10vw ;
+    line-height: 0.9em;
+    font-weight: 700;
+    
+    
+        }
+        
+       h2{
+    font-family: 'Copperplate';
+    font-style: normal;
+    font-size: 45px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    
+        }
+        
+    h3{
+    font-family: 'Copperplate';
+    font-style: normal;
+    font-size: 26px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+        }
+        
+     h4{
+    font-family: 'Copperplate';
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: black;
+        }
+    
+        
+        
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {background: pink;}
+    
+    
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 770px) {
+  body {background: aqua;
+    
+   
+            }
+
+            header {
+                padding: 0 20em;
+            }
+            
+            nav{
+                padding: 0 14em;
+                
+            }
+    
+            h1 {
+                font-size: 10vw;
+                line-height: 1em;
+                font-weight: 700;
+            }
+
+            h2 {
+                font-size: 9vw;
+                text-align: left;
+            }
+
+            h3 {
+                font-size: 5vw;
+                text-align: left;
+            }
+
+    
+            main {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+
+            section {
+                width: 400px;
+                margin: 0 0 1.6em 0;
+                display: flex;
+                flex-direction: column;
+                height: 348px;
+                background: white;
+                
+                
+            }
+            .grid-container{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+               
+            }
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {background:aqua;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+  body {background: purple;}
+    
+    header{
+                padding: 30em;
+                height: 70vh;
+                background-position: top;
+            }
+            h1 {
+                font-size: 8vw;
+                line-height: 3em;
+                font-weight: 700;
+            }
+
+            h2 {
+                font-size: 6vw;
+                width: 100%;
+                text-align:left;
+            }
+
+            h3 {
+                font-size: 2vw;
+                padding: 0 0 0 10vw;
+                text-align:left;
+                
+            }
+            h2 br{
+                display: none;
+            }
+            nav{
+                position: relative;
+                justify-content: space-around;
+                padding: 0 30em;
+            }
+            nav a{
+                font-size: 1.5em;
+                margin: 0 2.5em 0 0.5em;
+            }
+    
+    main{
+                display: flex;
+                height: 900px;
+                padding: 0 40em;
+                flex-direction: row;
+                background:#A26FDE;
+            
+
+            }
+    
+            section{
+                margin: 0 3em 0 1em;
+                min-width: 20em;
+                max-width: 23em;
+                height: 20em;
+            }
+            
+            
+            section figure img {
+                height: 15em;
+                object-fit: cover;
+                object-position: center ;
+            }
+            section h4{
+                font-size: 1.3em;
+            }
+            footer{
+                padding: 0 7em;
+                flex-direction: row;
+                font-size: 1em;
+            }
+            .xxss{
+                
+                justify-content: space-around;
+                align-items: center center;
+            }
+            .xxss a{
+                padding: 0em 10em 0 10em;
+            }
+            .email{
+               
+                display: flex;
+                justify-content: center;
+                
+            }
+            
+}
+        
+    </style>
+</head>
+<body>
+   <div class="grid-container">
+    <header>
+        <h1>Marta Sala</h1>
+        <h2> Recursos Interactivos <br> Aplicados </h2>
+        <h3>2GP-EASDAlcoi</h3>
+    </header> 
+    <nav>
+        <a href="">Proyectos</a>
+        <a href="">contacte</a>
+    </nav>
+    <Main class="main">
+        <Section>
+           <Figure>
+            <img src="img/P0_llocweb.png" alt="">
+            </Figure>
+            <figcaption>
+            <h4>p0_llocweb</h4>
+            </figcaption>
+            
+        </Section>
+        
+        <Section>
+           <Figure>
+            <img src="img/p1_webtrabajos.png" alt="">
+            </Figure>
+            <figcaption>
+            <h4>p1_webtrebajos</h4>
+            </figcaption>
+            
+        </Section>
+        
+        <Section>
+           <Figure>
+            <img src="img/P0_llocweb.png" alt="">
+            </Figure>
+            <figcaption>
+            <h4>p0_llocweb</h4>
+            </figcaption>
+            
+        </Section>
+        
+        </Main>
+    <footer class="footer">
+       <div class="xxss">
+        <a href="https://www.instagram.com/martasala98">Insta</a>
+        <a href="">Facebook</a>
+        </div>
+        <div class="email">
+        <a href="mailto:salacm@easdalcoi.es">Email</a>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
